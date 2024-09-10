@@ -8,5 +8,6 @@ function calculateMoney(ticketSale) {
     const netMoney=totalTicketSale-totalExpenses;
     return netMoney;
     }
+    
  const ExtraMoney=calculateMoney(10);
  console.log(ExtraMoney);
